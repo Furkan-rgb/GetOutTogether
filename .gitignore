@@ -1,6 +1,6 @@
 
 .DS_Store
-Library
-Logs
-Obj
-Packages
+Library/
+Logs/
+Obj/
+Packages/
