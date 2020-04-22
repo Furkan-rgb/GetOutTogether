@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - KeyDeur1
+  - NormalAudio
+  - ActionAudio
   layers:
   - Default
   - TransparentFX
