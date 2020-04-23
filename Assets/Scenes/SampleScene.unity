@@ -29068,6 +29068,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canOpen: 0
+  Enemy: {fileID: 1142617612}
 --- !u!65 &1930001980
 BoxCollider:
   m_ObjectHideFlags: 0
