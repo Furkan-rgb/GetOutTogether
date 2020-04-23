@@ -5,11 +5,7 @@ using UnityEngine;
 public class pickup_object : MonoBehaviour
 {
     public bool canOpen = false;
-
-        void Start()
-    {
-
-    }
+    public GameObject Enemy;
 
     void OnTriggerEnter(Collider collider) //methode voor het triggeren van een event
     {
@@ -19,6 +15,7 @@ public class pickup_object : MonoBehaviour
             //Destroy(gameObject); //vernietig het object
             gameObject.SetActive(false);
             canOpen = true;
+            Enemy.SetActive(true);
         }
     }
 }
